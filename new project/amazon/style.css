@@ -1,0 +1,137 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #232f3e;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    width: 300px;
+}
+
+.search-bar button {
+    background-color: #febd69;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+main {
+    padding: 2rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#filters {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.filter-group {
+    margin-bottom: 1rem;
+}
+
+.filter-group h4 {
+    margin-bottom: 0.5rem;
+}
+
+#category-filter {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#min-price, #max-price {
+    width: 45%;
+    padding: 0.5rem;
+    margin-right: 5%;
+}
+
+#apply-price-filter {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+#filters {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.filter-group {
+    margin-bottom: 1rem;
+}
+
+.filter-group h4 {
+    margin-bottom: 0.5rem;
+}
+
+#category-filter {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#min-price, #max-price {
+    width: 45%;
+    padding: 0.5rem;
+    margin-right: 5%;
+}
+
+#apply-price-filter {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}

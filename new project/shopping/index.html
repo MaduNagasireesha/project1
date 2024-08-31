@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Product Card</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_5szpgfto9i_e&adgrpid=155259813593&hvpone=&hvptwo=&hvadid=674893540034&hvpos=&hvnetw=g&hvrand=961949139870112365&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9184931&hvtargid=kwd-64107830&hydadcr=14452_2316413&gad_source=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <img src="logo.jpg" alt="Amazon Logo" width="100">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search products...">
+                <button type="button">Search</button>
+            </div>
+        </div>
+    </header>
+    <div class="logo"><h6 style="text-align:left"><b>Shopping</b></h6></div>
+    <div class="collapse navbar-collapse" id="myNavbar" style="flex-grow: 0;">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+              <a href="" class="nav-link text-white">Products</a>
+          </li>
+          <li class="nav-item">
+              <a href="" class="nav-link text-white">Contact</a>
+          </li>
+          <li class="nav-item">
+              <a href="./cart.html" class="nav-link text-white">
+                  Cart: <span id="count">0</span>
+              </a>
+          </li>
+        </ul>
+    </div>
+    <section id="filters">
+        <h3>Filters</h3>
+        <div class="filter-group">
+            <h4>Category</h4>
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="electronics">Electronics</option>
+                <option value="clothing">Clothing</option>
+                <option value="books">Books</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <h4>Price Range</h4>
+            <input type="number" id="min-price" placeholder="Min Price">
+            <input type="number" id="max-price" placeholder="Max Price">
+            <button id="apply-price-filter">Apply</button>
+        </div>
+    </section>
+    <div class="gallery">
+        <div class="content">
+            <img src="shoes.jpg" alt="Shoes">
+            <h3>Shoes</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+            <h6>$100.00</h6>
+            <ul>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star"></i></li>
+            </ul>
+            <button class="buy-1">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="earphone.jpg" alt="Earphone">
+            <h3>Earphone</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+            <h6>$300.00</h6>
+            <ul>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star"></i></li>
+            </ul>
+            <button class="buy-2">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="watch.jpg" alt="Watch">
+            <h3>Watch</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+            <h6>$1050.00</h6>
+            <ul>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star"></i></li>
+            </ul>
+            <button class="buy-3">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="mobile.jpg" alt="Mobile">
+            <h3>Mobile</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+            <h6>$15100.00</h6>
+            <ul>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+            </ul>
+            <button class="buy-4">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="jeans.jpg" alt="Jeans">
+            <h3>Jeans</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+            <h6>$800.00</h6>
+            <ul>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star"></i></li>
+            </ul>
+            <button class="buy-5">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="books.jpg" alt="Books">
+            <h3>Books</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+            <h6>$300.00</h6>
+            <ul>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star"></i></li>
+            </ul>
+            <button class="buy-6">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="novel.jpg" alt="Jeans">
+            <h3>Novels</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+            <h6>$800.00</h6>
+            <ul>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star"></i></li>
+            </ul>
+            <button class="buy-7">Buy Now</button>
+        </div>
+        <div class="content">
+            <img src="sports.jpg" alt="Books">
+            <h3>Sports kit</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+            <h6>$300.00</h6>
+            <ul>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star checked"></i></li>
+                <li><i class ="fa fa-star"></i></li>
+            </ul>
+            <button class="buy-8">Buy Now</button>
+        </div>
+    </div>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Shopping! We offer a wide range of products to suit all your needs. Our mission is to provide quality products at affordable prices.</p>
+    </section>
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <p>Your shopping cart is currently empty. Start adding products!</p>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>Contact us at: <a href="mailto:nagamadu@gmail.com"></your-nagamadu>nagamadu@gmail.com</a></p>
+        </div>
+    </footer>
+    <script src="./common.js"></script>
+</body>
+</html>
